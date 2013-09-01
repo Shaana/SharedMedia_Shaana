@@ -5,3 +5,9 @@
 /usr/bin/svn co svn://svn.wowace.com/wow/ace-gui-3-0-shared-media-widgets/mainline/trunk AceGUI-3.0-SharedMediaWidgets
 /usr/bin/svn co svn://svn.wowace.com/wow/shared-media-additional-fonts/mainline/trunk SharedMediaAdditionalFonts 
 
+
+#uncomment this if you wann delte the .svn folders (no update possible)
+#rm -rf SharedMedia/.svn
+#rm -rf LibSharedMedia-3.0/.svn
+#rm -rf AceGUI-3.0-SharedMediaWidgets/.svn
+#rm -rf SharedMediaAdditionalFonts/.svn
